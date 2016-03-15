@@ -16,5 +16,9 @@
   - dump as instruction
   - `x/20i test` - list 20 instructions
 
+- `set disassembly-flavor intel`
+  - Set disassembly to Intel syntax
+  - add it to ~/.gdbinit to automatically set it to Intel syntax every time you run GDB
+
 
 
