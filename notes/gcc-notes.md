@@ -20,5 +20,12 @@
   - Set disassembly to Intel syntax
   - add it to ~/.gdbinit to automatically set it to Intel syntax every time you run GDB
 
+- `(gdb) info line main`
+  - Show information about function including start and end address
+
+- `(gdb) disas STARTADDRESS ENDADDRESS`
+  - Disassembly the function from start to end addresses
+
+
 
 
